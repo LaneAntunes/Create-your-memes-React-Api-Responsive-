@@ -1,12 +1,12 @@
 import React from 'react'
+import './header.css'
 
 
 function Header() {
     return (
         <div className='nav'>
             <div className='title'>
-                <img src="./images/Trollface.svg" />
-                <div className='app--name'>Meme Generator</div></div>
+                <img src="./images/Trollface.svg" /></div>
             <div className='react--project'>API / React Project</div>
         </div>
 

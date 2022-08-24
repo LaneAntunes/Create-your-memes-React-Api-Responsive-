@@ -7,212 +7,35 @@
 
 :root {
     --main-bg-color: linear-gradient(315deg, #2e8338 0%, #233329 74%);
-
 }
 
 
 body {
+    width: 100%;
     font-family: "Karla", sans-serif;
     margin: 0;
     padding: 0;
-
-
+    background: rgba(24, 84, 24, 0.721);
 }
 
 #root {
     display: flex;
     justify-content: center;
-
 }
 
-.react--project {
-    font-size: 13px;
-}
+
 
 .app {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    /* position: relative; */
-    /* border: solid black; */
-    /* height: 100vh; */
-    /* border: 2px solid; */
-
+    min-width: 100%;
 }
 
-.nav {
-    height: 50px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    background: var(--main-bg-color);
-    align-items: center;
-    color: white;
-}
-
-.nav img {
-    width: 30px;
-}
-
-.title {
-    display: flex;
-    display: flex;
-    align-items: center;
-    width: 60%;
-}
-
-.app--name {
-    /* display: flex;
-    align-items: center; */
-    margin-left: .3rem;
-    font-weight: 800;
-}
 
 main {
-    max-width: 100%;
-    /* position: absolute; */
-    /* border: solid black; */
-}
-
-.form {
-    max-width: 100%;
+    min-width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    gap: 2px; */
-    margin: 5rem 1.2rem .3rem 1.2rem;
-}
-
-/* .grid-col-span-2 {
-    grid-column: span 2;
-
-
-} */
-
-input {
-    width: 48%;
-    margin-left: 1.1%;
-    height: 2.6rem;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    border: 1px solid darkgreen;
-    text-align: center;
-    font-size: 18px;
-    text-indent: 5px;
-}
-
-
-
-button {
-
-    width: 100%;
-    height: 3rem;
-    font-size: 20px;
-    font-family: "Karla", sans-serif;
-    border-radius: 5px;
-    background: var(--main-bg-color);
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-
-.image--container {
-    max-width: 100%;
-    margin: .8rem 1.2rem .9rem 1.2rem;
-    position: relative;
-
-
-}
-
-.meme--image {
-    max-width: 100%;
-    border-radius: 3px;
-
-    /* position: absolute; */
-
-}
-
-
-.meme--text {
-    position: absolute;
-    width: 80%;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 15px 0;
-    padding: 0 5px;
-    font-family: impact, sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 1px;
-    text-shadow:
-        2px 2px 0 #000,
-        -2px -2px 0 #000,
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        0 2px 0 #000,
-        2px 0 0 #000,
-        0 -2px 0 #000,
-        -2px 0 0 #000,
-        2px 2px 5px #000;
-}
-
-.bottom {
-    bottom: 0;
-}
-
-.top {
-    top: 0;
-}
-
-@media(max-width:700px) {
-    .react--project {
-        font-size: 10px;
-    }
-
-    input {
-        font-size: 14px;
-        height: 2rem;
-        margin-left: 0;
-
-    }
-
-    button {
-        font-size: 14px;
-        height: 2.5rem;
-    }
-
-    .app--name {
-        font-size: 14px;
-    }
-}
-
-@media(max-width:500px) {
-    .react--project {
-        font-size: 8px;
-    }
-
-    input {
-        font-size: 10px;
-        height: 1rem;
-        margin-left: 0;
-
-    }
-
-    button {
-        font-size: 10px;
-        height: 1.5rem;
-    }
-
-    .app--name {
-        font-size: 10px;
-    }
+    flex-direction: column;
+    gap: 1rem;
 }

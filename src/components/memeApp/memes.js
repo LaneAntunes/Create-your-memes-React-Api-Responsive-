@@ -1,4 +1,5 @@
 import React from 'react'
+import '../memeApp/memes.css'
 
 function Memes() {
 
@@ -40,8 +41,9 @@ function Memes() {
     }
 
     return (
-        <main>
 
+        <div className='meme-app'>
+            <div><h1>Create your own memes!</h1></div>
             <div className='form'>
                 <input
                     type="text"
@@ -64,7 +66,8 @@ function Memes() {
                 <h2 className='meme--text top'>{memes.topText}</h2>
                 <h2 className='meme--text bottom'>{memes.bottomText}</h2>
             </div>
-        </main>
+        </div>
+
     )
 }
 

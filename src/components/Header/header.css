@@ -1,0 +1,30 @@
+.nav {
+    padding: 2em;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.nav img {
+    width: 30px;
+}
+
+.react--project {
+    font-size: 13px;
+}
+
+
+.title {
+    display: flex;
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.app--name {
+    margin-left: .3rem;
+    font-weight: 800;
+}
