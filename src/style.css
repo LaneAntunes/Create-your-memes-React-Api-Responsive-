@@ -5,17 +5,14 @@
 
 }
 
-:root {
-    --main-bg-color: linear-gradient(315deg, #2e8338 0%, #233329 74%);
-}
-
 
 body {
     width: 100%;
     font-family: "Karla", sans-serif;
     margin: 0;
     padding: 0;
-    background: rgba(24, 84, 24, 0.721);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #036972, #0b939f, #028a4a);
+    min-height: 100vh;
 }
 
 #root {

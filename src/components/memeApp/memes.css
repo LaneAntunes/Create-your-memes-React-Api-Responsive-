@@ -24,7 +24,7 @@ input {
     height: 2.6rem;
     margin-bottom: 1em;
     border-radius: 5px;
-    border: 1px solid rgba(24, 84, 24, 0.721);
+    border: 1px solid #5455b0;
     text-align: center;
     font-size: 18px;
     text-indent: 5px;
@@ -45,7 +45,7 @@ button {
     font-size: 20px;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
-    background: rgba(0, 40, 0, 0.721);
+    background: rgb(0, 69, 67);
     color: white;
     border: none;
     cursor: pointer;

@@ -43,7 +43,6 @@ function Memes() {
     return (
 
         <div className='meme-app'>
-            <div><h1>Create your own memes!</h1></div>
             <div className='form'>
                 <input
                     type="text"
