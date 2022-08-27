@@ -11,8 +11,9 @@ body {
     font-family: "Karla", sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #036972, #0b939f, #028a4a);
     min-height: 100vh;
+    background: rgb(96, 115, 154);
+    background: radial-gradient(circle, rgba(96, 115, 154, 0.9979342078628326) 0%, rgba(116, 138, 202, 1) 100%);
 }
 
 #root {

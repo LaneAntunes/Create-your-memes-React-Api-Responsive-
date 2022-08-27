@@ -58,7 +58,7 @@ function Memes() {
                     onChange={handleChange}
                     value={memes.bottomText}
                 />
-                <button onClick={getImage}> Get New Meme Image</button>
+                <button onClick={getImage}> New Meme Image</button>
             </div>
             <div className='image--container'>
                 <img src={memes.randomImage} className='meme--image' />
