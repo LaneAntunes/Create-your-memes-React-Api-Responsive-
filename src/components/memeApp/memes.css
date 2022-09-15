@@ -4,9 +4,7 @@
     flex-direction: column;
     padding-left: 25em;
     padding-right: 25em;
-
 }
-
 
 .form {
     max-width: 100%;
@@ -15,8 +13,6 @@
     gap: 4px;
     margin: 2rem 1.2rem .3rem 1.2rem;
 }
-
-
 
 input {
     width: 48%;
@@ -29,7 +25,6 @@ input {
     font-size: 18px;
     text-indent: 5px;
 }
-
 
 .meme-app h1 {
     text-align: center;
@@ -51,7 +46,6 @@ button {
     cursor: pointer;
 }
 
-
 .image--container {
     max-width: 100%;
     margin: .8rem 1.2rem .9rem 1.2rem;
@@ -61,9 +55,7 @@ button {
 .meme--image {
     max-width: 100%;
     border-radius: 3px;
-
 }
-
 
 .meme--text {
     position: absolute;
@@ -98,21 +90,15 @@ button {
     top: 0;
 }
 
-
-
 @media(max-width:1200px) {
-
     .meme-app {
-        padding-right: 10em;
-        padding-left: 10em;
+        padding-right: 12em;
+        padding-left: 12em;
     }
-
-
 }
 
 @media(max-width:800px) {
     .meme-app {
-
         padding-right: 1em;
         padding-left: 1em;
     }
